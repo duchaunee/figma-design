@@ -1,0 +1,924 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  font-family: var(--title-16-px-regular-font-family, "Poppins");
+  font-weight: var(--title-16-px-regular-font-weight, 400);
+  font-size: var(--title-16-px-regular-font-size, 16px);
+  line-height: var(--title-16-px-regular-line-height, 1.5);
+}
+
+.sign-up .rectangle-21 {
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  background: #ffffff;
+  margin: 3.5px 8px 4.5px 0;
+  width: 17px;
+  height: 16px;
+}
+.sign-up .remember-me {
+  overflow-wrap: break-word;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #888484;
+}
+.sign-up .group-1000005942 {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.sign-up {
+  background: var(--bg, #ffffff);
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+}
+.sign-up .top-header {
+  background: var(--button, #000000);
+  margin-bottom: 38px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  justify-content: center;
+  padding: 13.5px 141.3px 12px 0;
+
+  box-sizing: border-box;
+}
+.sign-up .header {
+  padding: 0 135px 16px 135px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  width: 100%;
+}
+.sign-up .line-3 {
+  margin-bottom: 109.5px;
+  display: flex;
+
+  height: 0.5px;
+  box-sizing: border-box;
+}
+.sign-up .frame-760 {
+  margin: 0 58.6px 90px 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.sign-up .side-image {
+  border-radius: 0 4px 4px 0;
+  background: #cbe4e8;
+  position: relative;
+  margin-right: 129px;
+  width: 1000px;
+  height: 781px;
+}
+.sign-up .frame-759 {
+  margin: 106px 0px 144px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.sign-up .frame-753 {
+  margin-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.sign-up .welcome-back {
+  margin-bottom: 24px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 36px;
+  letter-spacing: 1.4px;
+  line-height: 0.833;
+  color: var(--text-2, #000000);
+}
+.sign-up .enter-your-email-and-password-to-login-to-lamthanhthu {
+  overflow-wrap: break-word;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+.sign-up .frame-758 {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.sign-up .frame-757 {
+  margin: 0 1px 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.sign-up .frame-755 {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.sign-up .email-or-phone-number {
+  opacity: 0.4;
+  margin-bottom: 8px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+
+  color: var(--text-2, #000000);
+  outline: none;
+  border: none;
+}
+.sign-up .under-line {
+  opacity: 0.5;
+  display: flex;
+  width: 370px;
+  height: 0px;
+  box-sizing: border-box;
+}
+.sign-up .frame-756 {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.sign-up .password {
+  opacity: 0.4;
+  margin-bottom: 8px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+
+  color: var(--text-2, #000000);
+  border: none;
+}
+.sign-up .under-line-1 {
+  opacity: 0.5;
+  display: flex;
+  width: 370px;
+  height: 0px;
+  box-sizing: border-box;
+}
+.sign-up .frame-752 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 371px;
+  box-sizing: border-box;
+}
+.sign-up .button {
+  border-radius: 4px;
+  background: var(--button-2, #db4444);
+  margin-bottom: 16px;
+  display: flex;
+  padding: 18px 0.6px 18px 0;
+  width: 371px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sign-up .frame-751 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 371px;
+  box-sizing: border-box;
+}
+.sign-up .google-sign-up {
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: row;
+  padding: 15px 0 20px 0;
+  width: 371px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.sign-up .frame-750 {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.sign-up .havent-signed-up-yet {
+  opacity: 0.7;
+  margin: 2px 7.3px 2px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+.sign-up .frame-749 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.sign-up .sign-up-1 {
+  opacity: 0.7;
+  margin: 0 0.5px 4px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+.sign-up .under-line-2 {
+  opacity: 0.5;
+  display: flex;
+  width: 61px;
+  height: 0px;
+  box-sizing: border-box;
+}
+.sign-up .footer {
+  background: var(--button, #000000);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 80px 96px 124px 135px;
+  box-sizing: border-box;
+}
+.sign-up .image-1 {
+  background: url("./image_1.png") 100% / cover no-repeat;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  bottom: -20px;
+  width: 100%;
+  height: 100%;
+}
+.sign-up .container {
+  border-radius: 4px;
+  border: 0.6px solid #fafafa;
+  background: url("assets/images/PngTransparentGooglePlayStoreLogoGooglePlayAppStoreAndroidWalletsTextLabelLogo.png")
+    100% / cover no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 17px 7px 9.1px 0;
+  width: 104px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.sign-up .container-1 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 257.8px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.sign-up .container-2 {
+  width: 1.3px;
+  height: 3.9px;
+}
+.sign-up .frame-549 {
+  margin-bottom: 1.5px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.sign-up .english {
+  margin-right: 11.2px;
+  overflow-wrap: break-word;
+  font-size: var(--title-14-px-regular-font-size, 14px);
+  color: var(--text, #fafafa);
+}
+.sign-up .summer-sale-for-all-swim-suits-and-free-express-delivery-off-50 {
+  overflow-wrap: break-word;
+  font-size: var(--title-14-px-regular-font-size, 14px);
+  color: var(--text, #fafafa);
+}
+.sign-up .drop-down {
+  margin: 6.5px 0 6.7px 0;
+  display: flex;
+  width: 12.7px;
+  height: 7.8px;
+  box-sizing: border-box;
+}
+.sign-up .vector {
+  width: 12.7px;
+  height: 7.8px;
+}
+.sign-up .frame-555 {
+  margin-top: 1.5px;
+  display: flex;
+  box-sizing: border-box;
+}
+.sign-up .frame-556 {
+  margin: 7px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 717px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.sign-up .logo {
+  display: flex;
+  box-sizing: border-box;
+}
+.sign-up .exclusive {
+  overflow-wrap: break-word;
+  font-family: var(--heading-24-px-bold-font-family, "Inter");
+  font-weight: var(--heading-24-px-bold-font-weight, 700);
+  font-size: var(--heading-24-px-bold-font-size, 24px);
+  letter-spacing: var(--heading-24-px-bold-letter-spacing, 0.7px);
+  line-height: var(--heading-24-px-bold-line-height, 1);
+  color: var(--text-2, #000000);
+}
+.sign-up .frame-554 {
+  position: relative;
+  width: 369px;
+  box-sizing: border-box;
+}
+.sign-up .frame-552 {
+  display: flex;
+  width: 243px;
+  box-sizing: border-box;
+}
+.sign-up .search-component-set {
+  border-radius: 4px;
+  background: var(--secondary, #f5f5f5);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 16px 10px 20px;
+  width: 243px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.sign-up .what-are-you-looking-for {
+  opacity: 0.5;
+  margin-right: 9px;
+  width: 182px;
+  overflow-wrap: break-word;
+  font-family: var(--title-12-px-regular-font-family, "Poppins");
+  font-weight: var(--title-12-px-regular-font-weight, 400);
+  font-size: var(--title-12-px-regular-font-size, 12px);
+  line-height: var(--title-12-px-regular-line-height, 1.5);
+  color: var(--text-2, #000000);
+}
+.sign-up .what-are-you-looking-for input {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+.sign-up .component-2 {
+  margin: 1px 0;
+  display: flex;
+  width: 16px;
+  height: 16px;
+  box-sizing: border-box;
+}
+.sign-up .vector-1 {
+  width: 16px;
+  height: 16px;
+}
+.sign-up .header-1 {
+  display: flex;
+  box-sizing: border-box;
+}
+.sign-up .home {
+  overflow-wrap: break-word;
+  color: var(--text-2, #000000);
+}
+.sign-up .header-2 {
+  display: flex;
+  box-sizing: border-box;
+}
+.sign-up .contact {
+  overflow-wrap: break-word;
+
+  color: var(--text-2, #000000);
+}
+.sign-up .header-3 {
+  display: flex;
+  box-sizing: border-box;
+}
+.sign-up .about {
+  overflow-wrap: break-word;
+
+  color: var(--text-2, #000000);
+}
+.sign-up .header-4 {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.sign-up .sign-up-2 {
+  margin: 0 0.4px;
+  overflow-wrap: break-word;
+
+  color: var(--text-2, #000000);
+}
+.sign-up .under-line-3 {
+  opacity: 0.5;
+  display: flex;
+  width: 61px;
+  height: 0px;
+  box-sizing: border-box;
+}
+.sign-up .line-1 {
+  background: #000000;
+  width: 61px;
+  height: 1px;
+}
+.sign-up .line-31 {
+  opacity: 0.3;
+  background: #000000;
+
+  height: 0.5px;
+}
+.sign-up .line-11 {
+  background: #000000;
+  width: 370px;
+  height: 1px;
+}
+.sign-up .line-12 {
+  background: #000000;
+  width: 370px;
+  height: 1px;
+}
+.sign-up .view-all-products {
+  overflow-wrap: break-word;
+  font-family: var(--title-16-px-medium-font-family, "Poppins");
+  font-weight: var(--title-16-px-medium-font-weight, 500);
+  font-size: var(--title-16-px-medium-font-size, 16px);
+  line-height: var(--title-16-px-medium-line-height, 1.5);
+  color: var(--text, #fafafa);
+  align-items: center;
+}
+.sign-up .ng-nhp-vi-google {
+  overflow-wrap: break-word;
+
+  color: var(--text-2, #000000);
+}
+.sign-up .icon-google {
+  margin-right: 16px;
+  width: 24px;
+  height: 24px;
+}
+.sign-up .line-13 {
+  background: #000000;
+  width: 61px;
+  height: 1px;
+}
+.sign-up .app-store {
+  background: #000000;
+  display: flex;
+  padding: 3px;
+  width: 110px;
+  height: 40px;
+  box-sizing: border-box;
+}
+.sign-up .download-appstore {
+  border-radius: 4px;
+  border: 0.6px solid var(--primary, #ffffff);
+  background: url("assets/images/DownloadAppstore.png") 100% / cover no-repeat;
+  width: 104px;
+  height: 34px;
+}
+.sign-up .google-play {
+  background: #030406;
+  position: relative;
+  margin-bottom: 4px;
+  display: flex;
+  padding: 5px 3px;
+  width: 110px;
+  box-sizing: border-box;
+}
+.sign-up .vector-1 {
+  margin: 0.3px 0 2.7px 0;
+  width: 100%;
+  height: 100%;
+  color: #b4b4b4;
+}
+.sign-up .vector-3 {
+  position: absolute;
+  right: 14.8px;
+  bottom: 17.7px;
+  width: 0.3px;
+  height: 0.1px;
+}
+.sign-up .account {
+  margin-bottom: 24px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--title-20-px-medium-font-family, "Poppins");
+  font-weight: var(--title-20-px-medium-font-weight, 500);
+  font-size: var(--title-20-px-medium-font-size, 20px);
+  line-height: var(--title-20-px-medium-line-height, 1.4);
+  color: var(--text, #fafafa);
+}
+.sign-up .my-account {
+  margin-bottom: 16px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+
+  color: var(--text, #fafafa);
+}
+.sign-up .login-register {
+  margin-bottom: 16px;
+  display: inline-block;
+  overflow-wrap: break-word;
+
+  color: var(--text, #fafafa);
+}
+.sign-up .cart {
+  margin-bottom: 16px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+
+  color: var(--text, #fafafa);
+}
+.sign-up .qr-code {
+  background: #000000;
+  margin: 2px 8px 2px 0;
+  display: flex;
+  padding: 2px;
+  width: 80px;
+  height: 80px;
+  box-sizing: border-box;
+}
+.sign-up .qrcode-1 {
+  border: 2.5px solid var(--primary, #ffffff);
+  background: url("assets/images/Qrcode1.jpeg") 50% / cover no-repeat;
+  width: 76px;
+  height: 76px;
+}
+.sign-up .wishlist {
+  margin-bottom: 16px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+
+  color: var(--text, #fafafa);
+}
+.sign-up .shop {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+
+  color: var(--text, #fafafa);
+}
+.sign-up .quick-link {
+  margin: 0 7.5px 24px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--title-20-px-medium-font-family, "Poppins");
+  font-weight: var(--title-20-px-medium-font-weight, 500);
+  font-size: var(--title-20-px-medium-font-size, 20px);
+  line-height: var(--title-20-px-medium-line-height, 1.4);
+  color: var(--text, #fafafa);
+}
+.sign-up .privacy-policy {
+  margin-bottom: 16px;
+  display: inline-block;
+  overflow-wrap: break-word;
+
+  color: var(--text, #fafafa);
+}
+.sign-up .terms-of-use {
+  margin: 0 3.2px 16px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+
+  color: var(--text, #fafafa);
+}
+.sign-up .faq {
+  margin-bottom: 16px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+
+  color: var(--text, #fafafa);
+}
+.sign-up .contact-1 {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+
+  color: var(--text, #fafafa);
+}
+.sign-up .support {
+  margin-bottom: 24px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--title-20-px-medium-font-family, "Poppins");
+  font-weight: var(--title-20-px-medium-font-weight, 500);
+  font-size: var(--title-20-px-medium-font-size, 20px);
+  line-height: var(--title-20-px-medium-line-height, 1.4);
+  color: var(--text, #fafafa);
+}
+.sign-up .bijoy-sarani-dhaka-dh-1515-bangladesh {
+  margin-bottom: 16px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+
+  color: var(--text, #fafafa);
+}
+.sign-up .exclusivegmail-com {
+  margin-bottom: 16px;
+  display: inline-block;
+  overflow-wrap: break-word;
+
+  color: var(--text, #fafafa);
+}
+.sign-up .phone {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  color: var(--text, #fafafa);
+}
+.sign-up .subscribe {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--title-20-px-medium-font-family, "Poppins");
+  font-weight: var(--title-20-px-medium-font-weight, 500);
+  font-size: var(--title-20-px-medium-font-size, 20px);
+  line-height: var(--title-20-px-medium-line-height, 1.4);
+  color: var(--text, #fafafa);
+}
+.sign-up .get-10-off-your-first-order {
+  overflow-wrap: break-word;
+
+  color: var(--text, #fafafa);
+}
+.sign-up .download-app {
+  margin-bottom: 24px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--title-20-px-medium-font-family, "Poppins");
+  font-weight: var(--title-20-px-medium-font-weight, 500);
+  font-size: var(--title-20-px-medium-font-size, 20px);
+  line-height: var(--title-20-px-medium-line-height, 1.4);
+  color: var(--text, #fafafa);
+}
+.sign-up .frame-708 {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.sign-up .frame-709 {
+  margin: 0 88px 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.sign-up .frame-710 {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.sign-up .frame-711 {
+  margin-right: 87.2px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.sign-up .frame-712 {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.sign-up .frame-713 {
+  margin: 0 87.4px 56px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.sign-up .logo-1 {
+  margin-bottom: 24px;
+  display: flex;
+  box-sizing: border-box;
+}
+.sign-up .exclusive-1 {
+  overflow-wrap: break-word;
+  font-family: var(--heading-24-px-bold-font-family, "Inter");
+  font-weight: var(--heading-24-px-bold-font-weight, 700);
+  font-size: var(--heading-24-px-bold-font-size, 24px);
+  letter-spacing: var(--heading-24-px-bold-letter-spacing, 0.7px);
+  line-height: var(--heading-24-px-bold-line-height, 1);
+  color: var(--text, #fafafa);
+}
+.sign-up .send-mail {
+  border-radius: 4px;
+  border: 1.5px solid var(--text, #fafafa);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10.5px 15.5px 10.5px 14.5px;
+  width: 217px;
+  box-sizing: border-box;
+}
+.sign-up .enter-your-email {
+  opacity: 0.4;
+  margin-right: 12px;
+  width: 152px;
+  overflow-wrap: break-word;
+  border: none;
+  color: #fff;
+  color: var(--text, #fafafa);
+}
+.sign-up .icon-send {
+  margin: 3px 0;
+  display: flex;
+  width: 20px;
+  height: 18px;
+  box-sizing: border-box;
+}
+.sign-up .vector-6 {
+  width: 20px;
+  height: 18px;
+}
+.sign-up .frame-715 {
+  margin: 0 5.3px 24px 0;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.sign-up .frame-716 {
+  margin: 0 11.7px 16px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.sign-up .frame-717 {
+  margin: 0 87px 48px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.sign-up .frame-718 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 110px;
+  box-sizing: border-box;
+}
+.sign-up .frame-719 {
+  display: flex;
+  flex-direction: row;
+  width: 198px;
+  box-sizing: border-box;
+}
+.sign-up .save-3-with-app-new-user-only {
+  opacity: 0.7;
+  margin: 0 4.7px 8px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--title-12-px-medium-font-family, "Poppins");
+  font-weight: var(--title-12-px-medium-font-weight, 500);
+  font-size: var(--title-12-px-medium-font-size, 12px);
+  line-height: var(--title-12-px-medium-line-height, 1.5);
+  color: var(--text, #fafafa);
+}
+.sign-up .frame-720 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.sign-up .frame-721 {
+  margin-bottom: 27px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.sign-up .icon-facebook {
+  display: flex;
+  width: 10.5px;
+  height: 18px;
+  box-sizing: border-box;
+}
+.sign-up .vector-7 {
+  width: 10.5px;
+  height: 18px;
+}
+.sign-up .icon-twitter {
+  margin: 1px 0 0.4px 0;
+  display: flex;
+  width: 20.1px;
+  height: 16.6px;
+  box-sizing: border-box;
+}
+.sign-up .vector-8 {
+  width: 20.1px;
+  height: 16.6px;
+}
+.sign-up .icon-instagram {
+  display: flex;
+  width: 18px;
+  height: 18px;
+  box-sizing: border-box;
+}
+.sign-up .group {
+  width: 18px;
+  height: 18px;
+}
+.sign-up .icon-linkedin {
+  margin-bottom: 0.5px;
+  display: flex;
+  width: 17.5px;
+  height: 17.5px;
+  box-sizing: border-box;
+}
+.sign-up .vector-12 {
+  width: 17.5px;
+  height: 17.5px;
+}
+.sign-up .frame-741 {
+  margin: 0 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  width: 157.5px;
+  box-sizing: border-box;
+}
+.sign-up .frame-742 {
+  margin-bottom: 29px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}

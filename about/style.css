@@ -1,0 +1,1022 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.about .footer {
+  background: var(--button, #000000);
+  display: flex;
+  flex-direction: row;
+  padding: 80px 96px 124px 135px;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.about {
+  background: var(--bg, #ffffff);
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.about .top-header {
+  background: var(--button, #000000);
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  padding: 12px 0 12px 0;
+
+  box-sizing: border-box;
+}
+.about .header {
+  width: 100%;
+  padding: 0 135px 16px 135px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  gap: 30px;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.about .line-3 {
+  margin-bottom: 79.5px;
+  display: flex;
+
+  height: 0.5px;
+  box-sizing: border-box;
+}
+.about .roadmap {
+  margin: 0 135px 25px 135px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.about .frame-869 {
+  width: 1200px;
+  margin: 154px 59.1px 134px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.about .our-story {
+  margin-bottom: 40px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--heading-54-px-semi-bold-font-family, "Inter");
+  font-weight: var(--heading-54-px-semi-bold-font-weight, 600);
+  font-size: var(--heading-54-px-semi-bold-font-size, 54px);
+  letter-spacing: var(--heading-54-px-semi-bold-letter-spacing, 3.2px);
+  line-height: var(--heading-54-px-semi-bold-line-height, 1.185);
+  color: #000000;
+}
+.about .frame-868 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.about
+  .lam-thanh-thu-was-established-in-2015-as-the-result-of-along-held-dream-and-apassionate-love-for-the-art-of-cuisine-and-pub-culture-located-on-apeaceful-corner-of-the-city-this-pub-is-not-only-aplace-to-enjoy-fine-drinks-but-also-aspace-where-people-can-meet-chat-and-share-memorable-moments {
+  margin-bottom: 24px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  color: var(--text-2, #000000);
+}
+.about
+  .lam-thanh-thu-has-more-than-1-million-products-to-offer-growing-at-avery-fast-exclusive-offers-adiverse-assotment-in-categories-ranging-from-consumer {
+  margin-right: 23.2px;
+  overflow-wrap: break-word;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  color: var(--text-2, #000000);
+}
+.about .frame-891 {
+  padding: 0 135px 98px 135px;
+  /* margin: 0 0 98px 135px; */
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.about .frame-870 {
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  width: 270px;
+}
+.about .frame-871 {
+  box-shadow: var(--categogy-20, 0px 2px 10px 2px rgba(0, 0, 0, 0.2));
+  border-radius: 4px;
+  background: var(--secondary-2, #db4444);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+}
+.about .frame-872 {
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 26.5px;
+  width: 270px;
+  box-sizing: border-box;
+}
+.about .frame-873 {
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+}
+.about .image-52 {
+  background: url("assets/images/image52.png") 100% / cover no-repeat;
+  width: 100%;
+  height: 624px;
+}
+.about .container {
+  margin: 0 87px 136px 135px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.about .image-53 {
+  background: url("assets/images/image53.png") 100% / cover no-repeat;
+  margin-right: 80px;
+  width: 100%;
+}
+.about .frame-892 {
+  margin-bottom: 51px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.about .why-choose-us {
+  overflow-wrap: break-word;
+  font-family: var(--heading-54-px-semi-bold-font-family, "Inter");
+  font-weight: var(--heading-54-px-semi-bold-font-weight, 600);
+  font-size: var(--heading-54-px-semi-bold-font-size, 54px);
+  letter-spacing: var(--heading-54-px-semi-bold-letter-spacing, 3.2px);
+  line-height: var(--heading-54-px-semi-bold-line-height, 1.185);
+  color: #000000;
+}
+.about
+  .wine-expert-the-lam-thanh-thu-team-includes-wine-experts-glassware-experts-wine-training-specialists-professional-sales-staffs-etc-with-expertise-and-extensive-skills-to-deliver-the-best-advice-and-help-customers-choose-their-suitable-bottle-and-understand-more-about-wines {
+  margin: 0 9px 48px 9px;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  color: var(--text-2, #000000);
+}
+.wine-expert-the-lam-thanh-thu-team-includes-wine-experts-glassware-experts-wine-training-specialists-professional-sales-staffs-etc-with-expertise-and-extensive-skills-to-deliver-the-best-advice-and-help-customers-choose-their-suitable-bottle-and-understand-more-about-wines-sub1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.333;
+}
+.about .order-at-the-warehouse {
+  margin: 0 28.3px 1px 28.3px;
+  display: inline-block;
+  align-self: flex-end;
+  overflow-wrap: break-word;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.625;
+  color: var(--text-2, #000000);
+}
+.about .image-54 {
+  background: url("image54.png") 100% / cover no-repeat;
+  margin-left: 12px;
+  width: 671px;
+  height: 388px;
+}
+.about
+  .we-have-shops-and-distribution-outlets-located-in-all-regions-major-cities-and-provinces-throughout-vietnam-cambodia-and-myanmar-we-guarantee-easy-ordering-safe-payment-fast-delivery-and-professional-staff-orders-can-be-placed-by-phone-email-whats-app-and-via-our-app {
+  padding: 0 18.4px 94px 18.4px;
+  display: inline-block;
+  align-self: flex-end;
+  overflow-wrap: break-word;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  color: var(--text-2, #000000);
+}
+.about .container-1 {
+  margin: 0 0 98px 135px;
+  display: flex;
+  flex-direction: row;
+  /* width: 1307px; */
+  box-sizing: border-box;
+}
+.about .container-2 {
+  margin: 77px 0 95px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.about .container-3 {
+  width: 1.3px;
+  height: 3.9px;
+}
+.about .app-store {
+  background: #000000;
+  display: flex;
+  padding: 3px;
+  width: 110px;
+  height: 40px;
+  box-sizing: border-box;
+}
+.about .download-appstore {
+  border-radius: 4px;
+  border: 0.6px solid var(--primary, #ffffff);
+  background: url("assets/images/DownloadAppstore.png") 100% / cover no-repeat;
+  width: 104px;
+  height: 34px;
+}
+.about .google-play {
+  background: #030406;
+  position: relative;
+  margin-bottom: 4px;
+  display: flex;
+  padding: 5px 3px;
+  width: 110px;
+  box-sizing: border-box;
+}
+.about .vector-1 {
+  margin: 0.3px 0 2.7px 0;
+  width: 0.6px;
+  height: 1px;
+}
+.about .vector-3 {
+  position: absolute;
+  right: 14.8px;
+  bottom: 17.7px;
+  width: 0.3px;
+  height: 0.1px;
+}
+.about .account {
+  margin-bottom: 24px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--title-20-px-medium-font-family, "Poppins");
+  font-weight: var(--title-20-px-medium-font-weight, 500);
+  font-size: var(--title-20-px-medium-font-size, 20px);
+  line-height: var(--title-20-px-medium-line-height, 1.4);
+  color: var(--text, #fafafa);
+}
+.about .my-account {
+  margin-bottom: 16px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--title-16-px-regular-font-family, "Poppins");
+  font-weight: var(--title-16-px-regular-font-weight, 400);
+  font-size: var(--title-16-px-regular-font-size, 16px);
+  line-height: var(--title-16-px-regular-line-height, 1.5);
+  color: var(--text, #fafafa);
+}
+.about .login-register {
+  margin-bottom: 16px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--title-16-px-regular-font-family, "Poppins");
+  font-weight: var(--title-16-px-regular-font-weight, 400);
+  font-size: var(--title-16-px-regular-font-size, 16px);
+  line-height: var(--title-16-px-regular-line-height, 1.5);
+  color: var(--text, #fafafa);
+}
+.about .cart {
+  margin-bottom: 16px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--title-16-px-regular-font-family, "Poppins");
+  font-weight: var(--title-16-px-regular-font-weight, 400);
+  font-size: var(--title-16-px-regular-font-size, 16px);
+  line-height: var(--title-16-px-regular-line-height, 1.5);
+  color: var(--text, #fafafa);
+}
+.about .qr-code {
+  background: #000000;
+  margin: 2px 8px 2px 0;
+  display: flex;
+  padding: 2px;
+  width: 80px;
+  height: 80px;
+  box-sizing: border-box;
+}
+.about .qrcode-1 {
+  border: 2.5px solid var(--primary, #ffffff);
+  background: url("assets/images/Qrcode1.jpeg") 50% / cover no-repeat;
+  width: 76px;
+  height: 76px;
+}
+.about .wishlist {
+  margin-bottom: 16px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--title-16-px-regular-font-family, "Poppins");
+  font-weight: var(--title-16-px-regular-font-weight, 400);
+  font-size: var(--title-16-px-regular-font-size, 16px);
+  line-height: var(--title-16-px-regular-line-height, 1.5);
+  color: var(--text, #fafafa);
+}
+.about .shop {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--title-16-px-regular-font-family, "Poppins");
+  font-weight: var(--title-16-px-regular-font-weight, 400);
+  font-size: var(--title-16-px-regular-font-size, 16px);
+  line-height: var(--title-16-px-regular-line-height, 1.5);
+  color: var(--text, #fafafa);
+}
+.about .quick-link {
+  margin: 0 7.5px 24px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--title-20-px-medium-font-family, "Poppins");
+  font-weight: var(--title-20-px-medium-font-weight, 500);
+  font-size: var(--title-20-px-medium-font-size, 20px);
+  line-height: var(--title-20-px-medium-line-height, 1.4);
+  color: var(--text, #fafafa);
+}
+.about .privacy-policy {
+  margin-bottom: 16px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--title-16-px-regular-font-family, "Poppins");
+  font-weight: var(--title-16-px-regular-font-weight, 400);
+  font-size: var(--title-16-px-regular-font-size, 16px);
+  line-height: var(--title-16-px-regular-line-height, 1.5);
+  color: var(--text, #fafafa);
+}
+.about .terms-of-use {
+  margin: 0 3.2px 16px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--title-16-px-regular-font-family, "Poppins");
+  font-weight: var(--title-16-px-regular-font-weight, 400);
+  font-size: var(--title-16-px-regular-font-size, 16px);
+  line-height: var(--title-16-px-regular-line-height, 1.5);
+  color: var(--text, #fafafa);
+}
+.about .faq {
+  margin-bottom: 16px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--title-16-px-regular-font-family, "Poppins");
+  font-weight: var(--title-16-px-regular-font-weight, 400);
+  font-size: var(--title-16-px-regular-font-size, 16px);
+  line-height: var(--title-16-px-regular-line-height, 1.5);
+  color: var(--text, #fafafa);
+}
+.about .contact {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--title-16-px-regular-font-family, "Poppins");
+  font-weight: var(--title-16-px-regular-font-weight, 400);
+  font-size: var(--title-16-px-regular-font-size, 16px);
+  line-height: var(--title-16-px-regular-line-height, 1.5);
+  color: var(--text, #fafafa);
+}
+.about .support {
+  margin-bottom: 24px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--title-20-px-medium-font-family, "Poppins");
+  font-weight: var(--title-20-px-medium-font-weight, 500);
+  font-size: var(--title-20-px-medium-font-size, 20px);
+  line-height: var(--title-20-px-medium-line-height, 1.4);
+  color: var(--text, #fafafa);
+}
+.about .bijoy-sarani-dhaka-dh-1515-bangladesh {
+  margin-bottom: 16px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--title-16-px-regular-font-family, "Poppins");
+  font-weight: var(--title-16-px-regular-font-weight, 400);
+  font-size: var(--title-16-px-regular-font-size, 16px);
+  line-height: var(--title-16-px-regular-line-height, 1.5);
+  color: var(--text, #fafafa);
+}
+.about .exclusivegmail-com {
+  margin-bottom: 16px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--title-16-px-regular-font-family, "Poppins");
+  font-weight: var(--title-16-px-regular-font-weight, 400);
+  font-size: var(--title-16-px-regular-font-size, 16px);
+  line-height: var(--title-16-px-regular-line-height, 1.5);
+  color: var(--text, #fafafa);
+}
+.about .container {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--title-16-px-regular-font-family, "Poppins");
+  font-weight: var(--title-16-px-regular-font-weight, 400);
+  font-size: var(--title-16-px-regular-font-size, 16px);
+  line-height: var(--title-16-px-regular-line-height, 1.5);
+  color: var(--text, #fafafa);
+}
+.about .subscribe {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--title-20-px-medium-font-family, "Poppins");
+  font-weight: var(--title-20-px-medium-font-weight, 500);
+  font-size: var(--title-20-px-medium-font-size, 20px);
+  line-height: var(--title-20-px-medium-line-height, 1.4);
+  color: var(--text, #fafafa);
+}
+.about .get-10-off-your-first-order {
+  overflow-wrap: break-word;
+  font-family: var(--title-16-px-regular-font-family, "Poppins");
+  font-weight: var(--title-16-px-regular-font-weight, 400);
+  font-size: var(--title-16-px-regular-font-size, 16px);
+  line-height: var(--title-16-px-regular-line-height, 1.5);
+  color: var(--text, #fafafa);
+}
+.about .download-app {
+  margin-bottom: 24px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: var(--title-20-px-medium-font-family, "Poppins");
+  font-weight: var(--title-20-px-medium-font-weight, 500);
+  font-size: var(--title-20-px-medium-font-size, 20px);
+  line-height: var(--title-20-px-medium-line-height, 1.4);
+  color: var(--text, #fafafa);
+}
+.about .frame-708 {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.about .frame-709 {
+  margin: 0 88px 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.about .frame-710 {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.about .frame-711 {
+  margin-right: 87.2px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.about .frame-712 {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.about .frame-713 {
+  margin: 0 87.4px 56px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.about .logo {
+  margin-bottom: 24px;
+  display: flex;
+  box-sizing: border-box;
+}
+.about .exclusive {
+  overflow-wrap: break-word;
+  font-family: var(--heading-24-px-bold-font-family, "Inter");
+  font-weight: var(--heading-24-px-bold-font-weight, 700);
+  font-size: var(--heading-24-px-bold-font-size, 24px);
+  letter-spacing: var(--heading-24-px-bold-letter-spacing, 0.7px);
+  line-height: var(--heading-24-px-bold-line-height, 1);
+  color: var(--text, #fafafa);
+}
+.about .send-mail {
+  border-radius: 4px;
+  border: 1.5px solid var(--text, #fafafa);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10.5px 15.5px 10.5px 14.5px;
+  width: 217px;
+  box-sizing: border-box;
+}
+.about .enter-your-email {
+  border: none;
+  columns: white;
+  opacity: 0.4;
+  margin-right: 12px;
+  width: 152px;
+  overflow-wrap: break-word;
+  font-family: var(--title-16-px-regular-font-family, "Poppins");
+  font-weight: var(--title-16-px-regular-font-weight, 400);
+  font-size: var(--title-16-px-regular-font-size, 16px);
+  line-height: var(--title-16-px-regular-line-height, 1.5);
+  color: var(--text, #fafafa);
+}
+.about .icon-send {
+  margin: 3px 0;
+  display: flex;
+  width: 20px;
+  height: 18px;
+  box-sizing: border-box;
+}
+.about .vector {
+  width: 20px;
+  height: 18px;
+}
+.about .frame-715 {
+  margin: 0 5.3px 24px 0;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.about .frame-716 {
+  margin: 0 11.7px 16px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.about .frame-717 {
+  margin: 0 87px 48px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.about .frame-718 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 110px;
+  box-sizing: border-box;
+}
+.about .frame-719 {
+  display: flex;
+  flex-direction: row;
+  width: 198px;
+  box-sizing: border-box;
+}
+.about .save-3-with-app-new-user-only {
+  opacity: 0.7;
+  margin: 0 4.7px 8px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--title-12-px-medium-font-family, "Poppins");
+  font-weight: var(--title-12-px-medium-font-weight, 500);
+  font-size: var(--title-12-px-medium-font-size, 12px);
+  line-height: var(--title-12-px-medium-line-height, 1.5);
+  color: var(--text, #fafafa);
+}
+.about .frame-720 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.about .frame-721 {
+  margin-bottom: 27px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.about .icon-facebook {
+  display: flex;
+  width: 10.5px;
+  height: 18px;
+  box-sizing: border-box;
+}
+.about .vector-1 {
+  width: 10.5px;
+  height: 18px;
+}
+.about .icon-twitter {
+  margin: 1px 0 0.4px 0;
+  display: flex;
+  width: 20.1px;
+  height: 16.6px;
+  box-sizing: border-box;
+}
+.about .vector-2 {
+  width: 20.1px;
+  height: 16.6px;
+}
+.about .icon-instagram {
+  display: flex;
+  width: 18px;
+  height: 18px;
+  box-sizing: border-box;
+}
+.about .group {
+  width: 18px;
+  height: 18px;
+}
+.about .icon-linkedin {
+  margin-bottom: 0.5px;
+  display: flex;
+  width: 17.5px;
+  height: 17.5px;
+  box-sizing: border-box;
+}
+.about .vector-6 {
+  width: 17.5px;
+  height: 17.5px;
+}
+.about .frame-741 {
+  margin: 0 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  width: 157.5px;
+  box-sizing: border-box;
+}
+.about .frame-742 {
+  margin-bottom: 29px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.about .frame-549 {
+  margin: 1.5px 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.about .english {
+  margin-right: 11.2px;
+  overflow-wrap: break-word;
+  font-family: var(--title-14-px-regular-font-family, "Poppins");
+  font-weight: var(--title-14-px-regular-font-weight, 400);
+  font-size: var(--title-14-px-regular-font-size, 14px);
+  line-height: var(--title-14-px-regular-line-height, 1.5);
+  color: var(--text, #fafafa);
+}
+.about .summer-sale-for-all-swim-suits-and-free-express-delivery-off-50 {
+  margin: 3px 13.7px 0 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--title-14-px-regular-font-family, "Poppins");
+  font-weight: var(--title-14-px-regular-font-weight, 400);
+  font-size: var(--title-14-px-regular-font-size, 14px);
+  line-height: var(--title-14-px-regular-line-height, 1.5);
+  color: var(--text, #fafafa);
+}
+.about .drop-down {
+  margin: 6.5px 0 6.7px 0;
+  display: flex;
+  width: 12.7px;
+  height: 7.8px;
+  box-sizing: border-box;
+}
+.about .vector-7 {
+  width: 12.7px;
+  height: 7.8px;
+}
+.about .frame-555 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.about .shop-now {
+  overflow-wrap: break-word;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration-line: underline;
+  line-height: 1.714;
+  color: var(--text, #fafafa);
+}
+.about .frame-556 {
+  margin: 7px 0;
+  display: flex;
+  box-sizing: border-box;
+}
+.about .exclusive-1 {
+  overflow-wrap: break-word;
+  font-family: var(--heading-24-px-bold-font-family, "Inter");
+  font-weight: var(--heading-24-px-bold-font-weight, 700);
+  font-size: var(--heading-24-px-bold-font-size, 24px);
+  letter-spacing: var(--heading-24-px-bold-letter-spacing, 0.7px);
+  line-height: var(--heading-24-px-bold-line-height, 1);
+  color: var(--text-2, #000000);
+}
+.about .frame-552 {
+  display: flex;
+  flex-direction: row;
+  width: 395px;
+  box-sizing: border-box;
+}
+.about .search-component-set {
+  border-radius: 4px;
+  background: var(--secondary, #f5f5f5);
+  margin-right: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 16px 10px 20px;
+  width: 243px;
+  box-sizing: border-box;
+}
+.about .what-are-you-looking-for {
+  opacity: 0.5;
+  margin-right: 9px;
+  width: 182px;
+  overflow-wrap: break-word;
+  font-family: var(--title-12-px-regular-font-family, "Poppins");
+  font-weight: var(--title-12-px-regular-font-weight, 400);
+  font-size: var(--title-12-px-regular-font-size, 12px);
+  line-height: var(--title-12-px-regular-line-height, 1.5);
+  color: var(--text-2, #000000);
+  border: none;
+}
+.about .component-2 {
+  margin: 1px 0;
+  display: flex;
+  width: 16px;
+  height: 16px;
+  box-sizing: border-box;
+}
+.about .vector-8 {
+  width: 16px;
+  height: 16px;
+}
+.about .frame-551 {
+  margin: 3px 0;
+  display: flex;
+  flex-direction: row;
+  width: 122px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.about .wishlist-1 {
+  margin: 7px 22px 7.2px 0;
+  display: flex;
+  width: 20px;
+  height: 17.8px;
+  box-sizing: border-box;
+}
+.about .vector-9 {
+  width: 20px;
+  height: 17.8px;
+}
+.about .cart-1-with-buy {
+  margin-right: 16px;
+  display: flex;
+  width: 32px;
+  height: 32px;
+  box-sizing: border-box;
+}
+.about .cart-1 {
+  width: 32px;
+  height: 32px;
+}
+.about .user {
+  width: 32px;
+  height: 32px;
+}
+.about .line-31 {
+  opacity: 0.3;
+  background: #000000;
+
+  height: 0.5px;
+}
+.about .account-1 {
+  opacity: 0.5;
+  margin-right: 12.3px;
+  overflow-wrap: break-word;
+  font-family: var(--title-14-px-regular-font-family, "Poppins");
+  font-weight: var(--title-14-px-regular-font-weight, 400);
+  font-size: var(--title-14-px-regular-font-size, 14px);
+  line-height: var(--title-14-px-regular-line-height, 1.5);
+  color: var(--text-2, #000000);
+}
+.about .nothing {
+  overflow-wrap: break-word;
+  font-family: var(--title-14-px-regular-font-family, "Poppins");
+  font-weight: var(--title-14-px-regular-font-weight, 400);
+  font-size: var(--title-14-px-regular-font-size, 14px);
+  line-height: var(--title-14-px-regular-line-height, 1.5);
+  color: var(--text-2, #000000);
+}
+.about .line-13 {
+  margin: 4.6px 12px 15.4px 0;
+  width: 6px;
+  height: 1px;
+}
+.about .free-and-fast-delivery {
+  margin: 0 4.6px 12px 11.8px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--heading-32-px-bold-font-family, "Inter");
+  font-weight: var(--heading-32-px-bold-font-weight, 700);
+  font-size: var(--heading-32-px-bold-font-size, 32px);
+  letter-spacing: var(--heading-32-px-bold-letter-spacing, 1.3px);
+  line-height: var(--heading-32-px-bold-line-height, 0.938);
+  color: #000000;
+}
+.about .free-delivery-for-all-orders-over-140 {
+  overflow-wrap: break-word;
+  font-family: var(--title-16-px-regular-font-family, "Poppins");
+  font-weight: var(--title-16-px-regular-font-weight, 400);
+  font-size: var(--title-16-px-regular-font-size, 16px);
+  line-height: var(--title-16-px-regular-line-height, 1.5);
+  color: #000000;
+}
+.about .services {
+  margin-bottom: 24px;
+  width: 80px;
+  height: 80px;
+}
+.about .frame-695 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.about .money-back-guarantee {
+  margin: 0 0.4px 8px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--heading-32-px-bold-font-family, "Inter");
+  font-weight: var(--heading-32-px-bold-font-weight, 700);
+  font-size: var(--heading-32-px-bold-font-size, 32px);
+  letter-spacing: var(--heading-32-px-bold-letter-spacing, 1.3px);
+  line-height: var(--heading-32-px-bold-line-height, 0.938);
+  color: var(--primary, #ffffff);
+}
+.about .we-reurn-money-within-30-days {
+  overflow-wrap: break-word;
+  font-family: var(--title-16-px-regular-font-family, "Poppins");
+  font-weight: var(--title-16-px-regular-font-weight, 400);
+  font-size: var(--title-16-px-regular-font-size, 16px);
+  line-height: var(--title-16-px-regular-line-height, 1.5);
+  color: var(--primary, #ffffff);
+}
+.about .services-1 {
+  margin: 0 0 24px 0.2px;
+  width: 80px;
+  height: 80px;
+}
+.about .frame-697 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.about .customer-service {
+  margin: 0 0px 12px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--heading-32-px-bold-font-family, "Inter");
+  font-weight: var(--heading-32-px-bold-font-weight, 700);
+  font-size: var(--heading-32-px-bold-font-size, 32px);
+  letter-spacing: var(--heading-32-px-bold-letter-spacing, 1.3px);
+  line-height: var(--heading-32-px-bold-line-height, 0.938);
+  color: #000000;
+}
+.about .friendly-247-customer-support {
+  overflow-wrap: break-word;
+  font-family: var(--title-16-px-regular-font-family, "Poppins");
+  font-weight: var(--title-16-px-regular-font-weight, 400);
+  font-size: var(--title-16-px-regular-font-size, 16px);
+  line-height: var(--title-16-px-regular-line-height, 1.5);
+  color: #000000;
+}
+.about .services-2 {
+  margin: 0 0 24px 0.7px;
+  align-self: center;
+  width: 80px;
+  height: 80px;
+}
+.about .frame-696 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.about .money-back-guarantee-1 {
+  margin: 0 0 12px 0.2px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--heading-32-px-bold-font-family, "Inter");
+  font-weight: var(--heading-32-px-bold-font-weight, 700);
+  font-size: var(--heading-32-px-bold-font-size, 32px);
+  letter-spacing: var(--heading-32-px-bold-letter-spacing, 1.3px);
+  line-height: var(--heading-32-px-bold-line-height, 0.938);
+  color: #000000;
+}
+.about .we-reurn-money-within-30-days-1 {
+  overflow-wrap: break-word;
+  font-family: var(--title-16-px-regular-font-family, "Poppins");
+  font-weight: var(--title-16-px-regular-font-weight, 400);
+  font-size: var(--title-16-px-regular-font-size, 16px);
+  line-height: var(--title-16-px-regular-line-height, 1.5);
+  color: #000000;
+}
+.about .services-3 {
+  margin: 0 0 24px 0.2px;
+  width: 80px;
+  height: 80px;
+}
+.about .frame-6971 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.about .container-4 {
+  border-radius: 4px;
+  border: 0.6px solid #fafafa;
+  background: url("assets/images/PngTransparentGooglePlayStoreLogoGooglePlayAppStoreAndroidWalletsTextLabelLogo.png")
+    100% / cover no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 17px 7px 9.1px 0;
+  width: 104px;
+  height: fit-content;
+  box-sizing: border-box;
+}
